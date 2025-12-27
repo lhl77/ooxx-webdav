@@ -88,10 +88,10 @@ go run main.go
 
 ### 支持的文件类型
 
-- `.jpg` / `.jpeg`
-- `.png`
-- `.gif`
-- `.webp`
+`.jpg` / `.jpeg`
+`.png`
+`.gif`
+`.webp`
 
 其他格式将被拒绝。
 
@@ -141,10 +141,10 @@ curl -u "admin:123456" \
 
 ## 🔄 更新日志
 
-- ✅ 支持文件大小 (`size`) 记录与 WebDAV `getcontentlength` 返回
-- ✅ 修复 `displayname` HTML 转义问题
-- ✅ 增加重试机制应对临时网络波动
-- ✅ 新增 `/api/get-url` 辅助接口
+✅ 支持文件大小 (`size`) 记录与 WebDAV `getcontentlength` 返回
+✅ 修复 `displayname` HTML 转义问题
+✅ 增加重试机制应对临时网络波动
+✅ 新增 `/api/get-url` 辅助接口
 
 ---
 
